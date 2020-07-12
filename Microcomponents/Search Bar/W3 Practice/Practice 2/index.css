@@ -1,0 +1,28 @@
+.navigationbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navigationbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navigationbar a:active {
+    background-color: blue;
+    color: white;
+}
+
+.navigationbar input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
