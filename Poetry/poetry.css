@@ -1,0 +1,36 @@
+body {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Cambria", sans-serif;
+    background-image: url("background.png");
+    min-height: 100%;
+    background-size: auto;
+    opacity: 80%;
+}
+
+/* Heading */
+.header {
+    text-align: center;
+
+}
+.heading {
+    font: 50px Cambria;
+    color: white;
+
+    padding: 20px;
+    margin: 5px;
+
+
+    display: inline-block;
+    margin: auto;
+    background-color: palevioletred;
+    }
+
+/* Poetry Text */
+.poetry {
+    font: 20px Cambria;
+    text-align: center;
+    display: block;
+    margin: 20px;
+    line-height: 30px;
+        }

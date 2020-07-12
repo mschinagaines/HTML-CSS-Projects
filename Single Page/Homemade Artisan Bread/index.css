@@ -1,0 +1,84 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 400 15px/1.8 "Cambria", sans-serif;
+    color: white;
+}
+
+/* Photo Positioning */
+.cd-logo, .kitchen-equipment, .ingredients-photo, .finished-product {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: goldenrod;
+    background-size: cover;
+    min-height: 100%;
+
+    opacity: .9;
+    background-attachment: fixed;
+}
+
+/* Caption */
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+}
+
+.border {
+    background-color: goldenrod;
+    color: white;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+
+}
+
+/* Logo */
+.cd-logo {
+    background-image: url("photos/logo.png");
+    min-height: 100%;
+    background-size: auto;
+}
+
+/* Heading */
+h3, .footer {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Cambria", sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* Text */
+.textSection, .ingredients, .directions, .footer {
+    background-color: goldenrod;
+    padding: 50px 80px;
+    margin-top: 7px;
+}
+
+/* Kitchen Equipment Photo */
+.kitchen-equipment {
+    background-image: url("photos/kitchen-equipment.png");
+}
+
+/* Ingredients Photo */
+.ingredients-photo {
+    background-image: url("photos/ingredients.png");
+}
+
+/* Final Photo of Bread */
+.finished-product {
+    background-image: url("photos/finished-product.png");
+}
+
+/* Turn off Parallax Scrolling for Tablets and Phones (as its not supported) */
+@media only screen and (max-device-width: 1024px) {
+    .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
+        background-attachment: scroll;
+    }
+}
+
+
+
