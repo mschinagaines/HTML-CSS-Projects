@@ -1,3 +1,7 @@
 .tag {
     color: red;
 }
+
+p .bold {
+    font-weight: bold;
+}
