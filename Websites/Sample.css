@@ -5,3 +5,11 @@ h1 {
 h2 {
     color: palevioletred;
 }
+
+.box {
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid black;
+}
