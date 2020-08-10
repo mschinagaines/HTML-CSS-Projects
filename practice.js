@@ -31,10 +31,8 @@ console.log (num);              // console.log will execute the function as a re
                         // difference between a while and a do loop? //
 
 // what are if statements?
-//equality operators
+// equality operators
 // logical operators
-
-// to write  it in another much cleaner way
 
 var num = prompt("Enter a number.");
 if (num > 0) {
@@ -43,7 +41,6 @@ if (num > 0) {
 else if (num < 0){
   alert("The number is negative")
 }
-
 else {
   alert("The number is zero.")
 }
@@ -55,6 +52,17 @@ if (isRaining === "yes") {
 }
 else {
   alert ("It's okay! You don't need anything.")
+}
+
+var question = prompt ("How many animals do you have?")
+if (num === 1) {
+    console.log ("you have 1 animal.");
+}
+if else (num > 1) {
+    console.log ("you have more than one animal.");
+}
+else (num === 0) {
+    console.log ("you have no animals.");
 }
 
 // RULES FOR LOGICAL OPERATORS
@@ -73,9 +81,33 @@ false || false === flase
 !false === true
 */
 
+// EXAMPLE //
+
+/* 
+Let's say that a certain company is hiring and is accepting applicants only aged
+between 18 and 65. Below is an applicant's profile.
+*/
 var name = "China";
 var age = prompt ("how old are you?");
 var highSchool = true;
 
-if (age >= 18 && highSchool === true)
-alert ("You are an adult!")
+var name1 = prompt ("What is your name?")
+var age1 = prompt ("How old are you?")
+var highschool1 = prompt ("Have you attended obtained a highschool diploma?")
+
+if (age >= 18 && highSchool === true){
+    alert ("You can work for us!")
+}
+
+if (age < 18 || age >= 65) {
+console.log ("No, you may not work for us.");
+}
+
+// WHILE LOOP PRACTICE
+var thisStuff = ["apple", "banana", 1, 597, undefined, ["cherry cola", "Dr.Pepper", "Sprite"], "alcohol", true, false]
+
+var num = thisStuff.length;
+while (num <=0 ) {
+    console.log (thisStuff(num));
+    num++;
+}
