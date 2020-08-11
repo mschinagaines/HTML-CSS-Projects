@@ -111,3 +111,19 @@ while (num <=0 ) {
     console.log (thisStuff(num));
     num++;
 }
+
+// FUNCTION PRACTICE
+
+//Even Number Generator
+var isEven = function (num) {
+  if (num === 0) return true;
+  if (num ===  1) return false;
+  if (num < 0) return isEven(-num);
+  else return isEven (n-2);
+}
+
+//Minimum Comparisons
+var Math = function (x, y) {
+  if (x<y) return x;
+  else return y;
+}
